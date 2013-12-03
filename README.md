@@ -1,4 +1,5 @@
-##A Chinese Tour of Go
+A Chinese Tour of Go
+===
 
 資料來源：
 1. [A Tour of Go](http://tour.golang.org/)
