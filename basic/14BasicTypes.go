@@ -26,3 +26,6 @@ func main() {
 	fmt.Printf(f, MaxInt, MaxInt)
 	fmt.Printf(f, z, z) // complex128 ((2+3i))
 }
+
+// %T 是指輸出型別
+// %v 是指輸出值
