@@ -1,4 +1,4 @@
-// go 並沒有 class，但可以替 struct 定義方法
+// go 並沒有 class，但可以替 struct 定義方法 (Type Methods)
 // method receiver 是寫在 func 跟 方法名稱的中間
 // --> 這個 method receiver 有點像是 this 的感覺
 

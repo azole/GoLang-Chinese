@@ -7,6 +7,14 @@
 // }
 //
 // fmt 印東西的函式自動會知道要去呼叫這個 Error() 來印出一個錯誤
+//
+// c9s補充：
+// func (self *error) Writer(w io.Writer) {
+//	 fmt.Fprint(w, *self)
+// }
+// func (self *error) String(){
+//   return *self
+// }
 
 package main
 

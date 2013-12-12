@@ -16,7 +16,7 @@ func main() {
 	m = make(map[string]Vertex)
 	m["Bell Labs"] = Vertex{
 		40.68433, -74.39967,
-	        	      // ^^^^ 一定要有逗點
+		// ^^^^ 一定要有逗點 (多行？)
 	}
 	fmt.Println(m["Bell Labs"]) // {40.68433 -74.39967}
 }
