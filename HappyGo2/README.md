@@ -11,6 +11,7 @@ Happy go Language Part II
 
 
 參考資料：    
-1. <a href="http://www.gorillatoolkit.org/" target="_blank">Gorilla</a>       
-2. <a href="https://github.com/codegangsta/martini" target="_blank">Martini</a>      
-3. <a href="https://github.com/paulbellamy/mango" target="_blank">Mango</a>     
+1. <a href="http://golang.org/pkg/strings/" target="_blank">strings</a>
+2. <a href="http://www.gorillatoolkit.org/" target="_blank">Gorilla</a>       
+3. <a href="https://github.com/codegangsta/martini" target="_blank">Martini</a>      
+4. <a href="https://github.com/paulbellamy/mango" target="_blank">Mango</a>     
