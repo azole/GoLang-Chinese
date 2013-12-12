@@ -8,7 +8,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 	"math/cmplx"
 )
 
@@ -20,9 +19,8 @@ func Cbrt(x complex128) complex128 {
 		i++
 		z1 = z
 		z = z - (cmplx.Pow(z, 3)-x)/(3*cmplx.Pow(z, 2))
-		im := imag(z) - imag(z1)
-		rl := real(z) - real(z1)
-		diff = math.Sqrt(im*im + rl*rl)
+
+		diff = cmplx.Abs(z - z1)
 		//fmt.Println(i, z, diff)
 	}
 	return z
