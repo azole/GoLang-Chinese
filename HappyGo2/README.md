@@ -5,6 +5,6 @@ Happy go Language Part II
 
 講師：c9s
 
-投影片：
+投影片：      
 1. <a href="http://www.slideshare.net/c9s/happy-gopart1" target="_blank">Part I</a>      
 2. <a href="http://www.slideshare.net/c9s/happy-go-programming-part-2" target="_blank">Part II</a>      
