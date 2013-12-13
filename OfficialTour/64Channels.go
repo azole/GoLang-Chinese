@@ -8,6 +8,15 @@
 //
 // 一般來說，直到另外一端準備好了，才會傳送和接收資料，不然就會先堵塞住 (block)
 // 這讓 goroutines 不用顯式的 lock 或其他條件判斷就能做到同步
+//
+// 補充說明：可以把 <- 跟 <- 想成是一種 block 運算子
+//          當程式執行到 <-c 時，它會停下來等待，直到有東西被送過來，這邊能接收為止
+//          當程式執行到 c<-v 時，它也會停下來等，直到接收端可以接收，它才會往下繼續執行
+//          藉此，就自然地達成了“同步”，而不需要其他的判斷
+//
+// The Go Approach:
+// Don't communicate by sharing memory, share memory by communicating.
+// from http://talks.golang.org/2012/concurrency.slide
 
 package main
 
