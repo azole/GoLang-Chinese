@@ -6,7 +6,8 @@ A Chinese Tour of Go
 學習材料：      
 1. <a href="http://tour.golang.org/" target="_blank">A Tour of Go</a>     
 2. <a href="http://www.slideshare.net/c9s/happy-gopart1" target="_blank">Happy Go Programming Part I</a>      
-3. <a href="http://www.slideshare.net/c9s/happy-go-programming-part-2" target="_blank">Happy Go Programming Part II</a>         
+3. <a href="http://www.slideshare.net/c9s/happy-go-programming-part-2" target="_blank">Happy Go Programming Part II</a>      
+4. <a href="http://tour.golang.org/#72" target="_blank">官方Tour最後提供的資源</a>   
 
 資源：    
 1. <a href="http://golang.org/pkg/strings/" target="_blank">strings</a>      
