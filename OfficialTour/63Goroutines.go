@@ -22,4 +22,9 @@ func say(s string) {
 func main() {
 	go say("world")
 	say("hello")
+
+	// 如果是沒有加上 go 只有以下這樣
+	// say("world")
+	// say("hello")
+	// 那執行結果是先印出 5 個 world，再印出 5 個 hello，依序的
 }
