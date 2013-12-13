@@ -7,9 +7,11 @@ I. Go Concurrency Patterns
 
 <a href="http://talks.golang.org/2012/concurrency.slide" target="_blank">Slides</a>
 
+<a href="http://code.google.com/r/vineychow-golang/source/browse/#hg%2F2012%2Fconcurrency%2Fsupport" target="_blank">source</a>
+
 * The Go Approach
 
-Don't communicate by sharing memory, share memory by communicating.
+> Don't communicate by sharing memory, share memory by communicating.
 
 II. Advanced Go Concurrency Patterns
 
