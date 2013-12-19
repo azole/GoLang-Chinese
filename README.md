@@ -1,8 +1,6 @@
 A Chinese Tour of Go
 ====================
 
-安裝與執行請先參考這篇文章：<a href="http://imazole.wordpress.com/2013/12/03/go-lang-part1/" target="_blank">Go lang 初體驗 – 安裝與執行</a>
-
 在自己看了一些範例後，覺得 go 像是 C, C++, Java/C#, Javascript 等語言的綜合體(也許還有 Python 與 Erlang)，然後再加上一些新的做法，很有趣。        
 1. go 有 pointer，但沒有 pointer 運算。       
 2. go 有 closure，function 是 first-class object (可以在執行階段建立一個新的 function，像資料結構一樣儲存它、當成參數一樣傳遞到其他函式或是回傳它)。           
@@ -13,6 +11,10 @@ A Chinese Tour of Go
 7. go 有自己的編碼風格，可以利用 go fmt 去維持一致性。        
 8. go 有 concurrency，但它共享共存的方式是透過溝通。    
 > The Go Approach: Don't communicate by sharing memory, share memory by communicating.        
+
+安裝與執行請先參考這篇文章：<a href="http://imazole.wordpress.com/2013/12/03/go-lang-part1/" target="_blank">Go lang 初體驗 – 安裝與執行</a>
+
+<a href="http://imazole.wordpress.com/2013/12/19/create-go-package/" target="_blank">環境設定與自己建立一個 package</a>
 
 
 學習材料：      
