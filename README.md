@@ -12,7 +12,7 @@ A Chinese Tour of Go
 6. go 有錯誤處理，是透過一個預先定義的 error interface，而非傳統意義上的異常機制。    
 7. go 有 concurrency，但它共享共存的方式是透過溝通。    
 > The Go Approach: Don't communicate by sharing memory, share memory by communicating.
-
+8. go 有自己的編碼風格，可以利用 go fmt 去維持一致性。
 
 學習材料：      
 1. <a href="http://tour.golang.org/" target="_blank">A Tour of Go</a>     
@@ -22,9 +22,8 @@ A Chinese Tour of Go
 
 中文學習材料：      
 1. <a href="http://blog.jobbole.com/36480/" target="_blank">Go在谷歌：以软件工程为目的的语言设计</a>     
-2. <a href="http://open.qiniudn.com/where-can-you-use-golang.pdf" target="_blank">Golang的用武之地 (PDF)</a>
-3. <a href="https://github.com/astaxie/build-web-application-with-golang/" target="_blank">Go Web 編程</a>        
-
+2. <a href="http://open.qiniudn.com/where-can-you-use-golang.pdf" target="_blank">Golang的用武之地 (PDF)</a>       
+3. <a href="https://github.com/astaxie/build-web-application-with-golang/" target="_blank">Go Web 編程 (中文電子書)</a>        
 
 資源：    
 1. <a href="http://golang.org/pkg/strings/" target="_blank">strings</a>      
