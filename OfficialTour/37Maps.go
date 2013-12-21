@@ -20,3 +20,8 @@ func main() {
 	}
 	fmt.Println(m["Bell Labs"]) // {40.68433 -74.39967}
 }
+
+// 補充說明：
+// 來源：https://github.com/astaxie/build-web-application-with-golang/blob/master/ebook/02.2.md
+//
+// map 不是 thread-safe 的，在多個 goroutine 要存取時，必須要 mutex lock。

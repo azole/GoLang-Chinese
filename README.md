@@ -21,7 +21,8 @@ A Chinese Tour of Go
 1. <a href="http://tour.golang.org/" target="_blank">A Tour of Go</a>     
 2. <a href="http://www.slideshare.net/c9s/happy-gopart1" target="_blank">Happy Go Programming Part I</a>      
 3. <a href="http://www.slideshare.net/c9s/happy-go-programming-part-2" target="_blank">Happy Go Programming Part II</a>      
-4. <a href="http://tour.golang.org/#72" target="_blank">官方Tour最後提供的資源</a>  
+4. <a href="http://tour.golang.org/#72" target="_blank">官方Tour最後提供的資源</a>      
+5. <a href="http://research.swtch.com/godata" target="_blank">GO Data Structure</a>       
 
 中文學習材料：      
 1. <a href="http://blog.jobbole.com/36480/" target="_blank">Go在谷歌：以软件工程为目的的语言设计</a>     

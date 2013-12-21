@@ -6,6 +6,7 @@
  *        rune  // int32 的別名
  *        float32, float64
  *        complex64, complex128  --> 令人驚奇的有複數型別
+ *                   complex128 是 64 位的實數與 64 位的虛數
  */
 package main
 
@@ -29,3 +30,7 @@ func main() {
 
 // %T 是指輸出型別
 // %v 是指輸出值
+
+// 補充說明：
+// string是不可變的，不能這樣寫：s[0] = 'c'，編譯時就會報錯了
+//

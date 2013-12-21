@@ -2,10 +2,10 @@
 // 範例： a := make([]int 5) // len(a) = 5
 // 如果要特別聲明 capacity (容量)，可以用第三個參數特別聲明
 // b := make([]int, 0, 5) // len(b)=0, cap(b)=5 --> 長度為0 但容量為5
-// b = b[:cap(b)]         // len(b)=5, cap(b)=5 --> 所以可以擴展其長度        
+// b = b[:cap(b)]         // len(b)=5, cap(b)=5 --> 所以可以擴展其長度
 // b = b[1:]              // len(b)=4, cap(b)=4
 // len 是長度，capacity 是容量
- 
+
 package main
 
 import "fmt"
@@ -29,3 +29,10 @@ func printSlice(s string, x []int) {
 	fmt.Printf("%s len=%d cap=%d %v\n",
 		s, len(x), cap(x), x)
 }
+
+// 補充說明：
+// cap 容量、最大長度，也就是 slice 開始位置到 array 最後位置的長度
+//
+// make 只能建立 slice, map 跟 channel
+// make 初始化了內部數據，填充適當的值，然後返回初始化後的(非零)值
+//
