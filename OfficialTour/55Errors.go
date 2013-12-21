@@ -43,3 +43,8 @@ func main() {
 		fmt.Println(err)
 	}
 }
+
+// go 沒有一般的異常機制，但有 panic 跟 recover 機制，但這應該要很少很少被用到。
+// 可參考：
+// 1. http://blog.golang.org/defer-panic-and-recover
+// 2. https://github.com/astaxie/build-web-application-with-golang/blob/master/ebook/02.3.md
