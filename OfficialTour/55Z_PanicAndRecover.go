@@ -1,4 +1,4 @@
-// 補充說明
+// 補充說明 (官方 Tour 中沒有)
 // 來源：http://blog.golang.org/defer-panic-and-recover
 //
 // go 中沒有一般的異常處理，它是利用 defer / panic / recover 來做
