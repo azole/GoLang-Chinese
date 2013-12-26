@@ -34,3 +34,10 @@ func main() {
 	v.Scale(5)
 	fmt.Println(v, v.Abs())
 }
+
+// 補充說明
+// 若宣告成 v := Vertex{3, 4}
+// 仍然可以用 v.Scale(5) 呼叫，
+// go 知道 receiver 是 pointer，會自動幫你轉 --> 太貼心了
+// 在執行完 v.Scale(5) 後，v 的 X, Y 都會被改變
+// 當然，要寫成 (&v).Scale(5) 這樣也是可以
